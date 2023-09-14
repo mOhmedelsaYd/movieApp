@@ -2,21 +2,26 @@
 
 This is a simple Movie App built with Express.js. It allows you to perform the following operations:
 
-1- List all movies:
--URL: /user.
--HTTP Method: GET.
+### 1. List all movies
 
-2- Add a new movie:
--URL: /user.
--HTTP Method: POST.
+- **URL:** `/user`
+- **HTTP Method:** GET
 
-3- Edit an existing movie:
--URL: /user/:id.
--HTTP Method: PATCH.
 
-4- Delete a movie:
--URL: /user/:id.
--HTTP Method: DELETE.
+### 2. Add a new movie
+
+- **URL:** `/user`
+- **HTTP Method:** POST
+
+### 3. Edit an existing movie
+- **URL:** `/user/:id`
+- **HTTP Method:** PATCH
+
+### 4. Delete a movie
+- **URL:** `/user/:id`
+- **HTTP Method:** DELETE
+
+
 
 All requests to the server are logged in the `log.txt` file.
 
